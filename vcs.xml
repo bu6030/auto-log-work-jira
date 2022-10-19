@@ -110,6 +110,10 @@
           <option name="url" value="https://github.com/bu6030/auto-log-work-jira.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/capp-xcl/b2c-aided-loan-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
