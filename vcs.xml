@@ -114,6 +114,10 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/capp-xcl/b2c-aided-loan-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.weixin.qq.com/bu6030/child-task.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
