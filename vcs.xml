@@ -122,6 +122,10 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/tapp/be/tapp-database.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/tapp/cloud-azure/tapp-microservices-payment.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
