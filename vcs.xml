@@ -8,7 +8,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://git.homecredit.net" />
-          <option name="userName" value="Xuesong.Bu" />
+          <option name="userName" value="Xuesong.Bu1" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://git.homecredit.net/rd/common-static-data.git" />
@@ -124,6 +124,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/tapp/cloud-azure/tapp-microservices-payment.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecredit.net/cn-sso/umc.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
