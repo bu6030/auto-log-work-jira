@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="wxml" type="HTML" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="jks" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
