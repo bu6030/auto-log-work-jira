@@ -54,6 +54,14 @@
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
