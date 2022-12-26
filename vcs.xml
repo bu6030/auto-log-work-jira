@@ -154,6 +154,10 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/capp-fundamental/me-page.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/capp/backend/b2c-web-api.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
