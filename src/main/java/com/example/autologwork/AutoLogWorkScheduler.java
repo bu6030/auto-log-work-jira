@@ -12,6 +12,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -43,6 +44,9 @@ public class AutoLogWorkScheduler {
     @Value("${jira.log.work.content}")
     private String content;
 
+    @Value("${jira.log.work.not-work-day}")
+    private String notWorkDay;
+
     @Scheduled(cron = "${jira.log.work.cron}")
     public void autoLogWork() {
         log.info("======= AutoLogWorkScheduler started =======");
@@ -51,6 +55,10 @@ public class AutoLogWorkScheduler {
     }
 
     private void execute() {
+        if (notWorkDay.contains(LocalDate.now().toString())) {
+            log.info("Today isn't workday!");
+            return;
+        }
         try {
             ResponseEntity<String> response = restTemplate.exchange(
                     jiraBaseUrl + logWrokUrl,
