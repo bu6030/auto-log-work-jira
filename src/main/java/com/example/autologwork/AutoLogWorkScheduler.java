@@ -53,19 +53,26 @@ public class AutoLogWorkScheduler {
     @Scheduled(cron = "${jira.log.work.cron}")
     public void autoLogWork() {
         log.info("======= AutoLogWorkScheduler started =======");
-        execute();
-        log.info("======= AutoLogWorkScheduler finished =======");
-    }
-
-    private void execute() {
         if (notWorkDay.contains(LocalDate.now().toString())) {
             log.info("Today isn't workday!");
             return;
         }
+        execute();
+        log.info("======= AutoLogWorkScheduler finished =======");
+    }
+
+    @Scheduled(cron = "${jira.log.work.weekend.cron}")
+    public void autoLogWorkWeekEndWorkDay() {
+        log.info("======= autoLogWorkWeekEndWorkDay started =======");
         if (!weekEndWorkDay.contains(LocalDate.now().toString())) {
             log.info("Today is weekend and not workday!");
             return;
         }
+        execute();
+        log.info("======= autoLogWorkWeekEndWorkDay finished =======");
+    }
+
+    private void execute() {
         try {
             ResponseEntity<String> response = restTemplate.exchange(
                     jiraBaseUrl + logWrokUrl,
