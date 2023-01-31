@@ -47,6 +47,9 @@ public class AutoLogWorkScheduler {
     @Value("${jira.log.work.not-work-day}")
     private String notWorkDay;
 
+    @Value("${jira.log.work.week-end-work-day}")
+    private String weekEndWorkDay;
+
     @Scheduled(cron = "${jira.log.work.cron}")
     public void autoLogWork() {
         log.info("======= AutoLogWorkScheduler started =======");
@@ -57,6 +60,10 @@ public class AutoLogWorkScheduler {
     private void execute() {
         if (notWorkDay.contains(LocalDate.now().toString())) {
             log.info("Today isn't workday!");
+            return;
+        }
+        if (!weekEndWorkDay.contains(LocalDate.now().toString())) {
+            log.info("Today is weekend and not workday!");
             return;
         }
         try {
