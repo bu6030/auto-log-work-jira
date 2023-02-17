@@ -16,7 +16,7 @@ import java.security.cert.X509Certificate;
 @Configuration
 public class RestTemplateConfig {
 
-    // 配置 RestTemplate
+    // Configure RestTemplate 配置RestTemplate
     @Bean
     public RestTemplate restTemplate(HttpComponentsClientHttpRequestFactory factory){
         return new RestTemplate(factory);

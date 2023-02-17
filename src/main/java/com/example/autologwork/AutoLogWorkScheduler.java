@@ -50,6 +50,9 @@ public class AutoLogWorkScheduler {
     @Value("${jira.log.work.week-end-work-day}")
     private String weekEndWorkDay;
 
+    /**
+     * Auto log work at weekdays
+     */
     @Scheduled(cron = "${jira.log.work.cron}")
     public void autoLogWork() {
         log.info("======= AutoLogWorkScheduler started =======");
@@ -61,6 +64,9 @@ public class AutoLogWorkScheduler {
         log.info("======= AutoLogWorkScheduler finished =======");
     }
 
+    /**
+     * Auto log work at some weekends, however, we would work at that days.
+     */
     @Scheduled(cron = "${jira.log.work.weekend.cron}")
     public void autoLogWorkWeekEndWorkDay() {
         log.info("======= autoLogWorkWeekEndWorkDay started =======");
