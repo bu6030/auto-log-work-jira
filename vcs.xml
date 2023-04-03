@@ -194,6 +194,10 @@
           <option name="url" value="https://github.com/bu6030/2022-Machine-Learning-Specialization.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/bu6030/bu6030.github.io.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
