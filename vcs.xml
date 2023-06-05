@@ -230,6 +230,10 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/aldi/support-tools.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/wechat-mini-app/backend/miniapp-common-starter.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
