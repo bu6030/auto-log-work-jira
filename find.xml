@@ -3,13 +3,13 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
-    <mask>*.html</mask>
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.properties</mask>
     <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.java</mask>
+    <mask>*.html</mask>
   </component>
 </application>
