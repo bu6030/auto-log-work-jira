@@ -2,6 +2,7 @@
   <component name="AcceptedLanguageLevels">
     <explicitly-accepted>
       <name>JDK_13</name>
+      <name>JDK_X</name>
     </explicitly-accepted>
   </component>
 </application>
