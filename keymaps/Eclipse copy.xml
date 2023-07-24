@@ -43,6 +43,9 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
@@ -53,6 +56,9 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta f" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
