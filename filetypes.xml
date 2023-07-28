@@ -5,6 +5,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="xlsm" type="PLAIN_TEXT" />
+      <mapping ext="pck" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
