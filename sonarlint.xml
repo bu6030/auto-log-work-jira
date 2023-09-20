@@ -1,0 +1,15 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://sonarqube.prod.hccn" />
+          <option name="name" value="hcc-sonarqube" />
+          <option name="login" value="Xuesong.Bu" />
+          <password>df92df9ddf9bdf9bdf9bdf9edfe2dfc9dfe8dfdf</password>
+        </SonarQubeServer>
+      </list>
+    </option>
+    <rules />
+  </component>
+</application>
