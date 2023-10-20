@@ -270,6 +270,14 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/new-core/cpls-service-api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab-ops.prod.hccn/it-ops-dba/npl-contract-data-migration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab-ops.prod.hccn" />
+          <option name="userName" value="Xuesong.Bu" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
