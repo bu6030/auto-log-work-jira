@@ -278,6 +278,10 @@
           <option name="url" value="http://gitlab-ops.prod.hccn" />
           <option name="userName" value="Xuesong.Bu" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/security/tokenization-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
