@@ -314,6 +314,10 @@
           <option name="url" value="https://git.homecreditcfc.cn/it-dev/payment-is/apps/incoming-payment-sync.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.homecreditcfc.cn/it-dev/cn_core_system/cn-bookng/apps/book_ng.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/git_code" />
